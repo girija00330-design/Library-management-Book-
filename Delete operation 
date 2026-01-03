@@ -1,0 +1,3 @@
+Remove Book if Copies = 0
+
+db.books.deleteOne({ availableCopies: 0 });

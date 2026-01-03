@@ -1,0 +1,7 @@
+Read all books 
+
+db.books.find();
+
+Books by category 
+
+db.books.find({ category: "Programming" });

@@ -1,0 +1,5 @@
+Book Not Found 
+
+if (!book) {
+  return res.status(404).json({ message: "Book not found" });
+}

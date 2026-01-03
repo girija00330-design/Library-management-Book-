@@ -1,0 +1,51 @@
+db.books.insertMany([
+  {
+    title: "Clean Code",
+    author: "Robert C. Martin",
+    category: "Programming",
+    publishedYear: 2008,
+    availableCopies: 5
+  },
+  {
+    title: "Atomic Habits",
+    author: "James Clear",
+    category: "Self Help",
+    publishedYear: 2018,
+    availableCopies: 8
+  },
+  {
+    title: "You Can Win",
+    author: "Shiv Khera",
+    category: "Motivation",
+    publishedYear: 2010,
+    availableCopies: 4
+  },
+  {
+    title: "Rich Dad Poor Dad",
+    author: "Robert Kiyosaki",
+    category: "Finance",
+    publishedYear: 2017,
+    availableCopies: 6
+  },
+  {
+    title: "The Alchemist",
+    author: "Paulo Coelho",
+    category: "Fiction",
+    publishedYear: 2016,
+    availableCopies: 3
+  },
+  {
+    title: "JavaScript Guide",
+    author: "MDN",
+    category: "Programming",
+    publishedYear: 2020,
+    availableCopies: 10
+  },
+  {
+    title: "Wings of Fire",
+    author: "A.P.J Abdul Kalam",
+    category: "Biography",
+    publishedYear: 2015,
+    availableCopies: 2
+  }
+]);

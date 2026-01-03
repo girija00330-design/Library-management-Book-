@@ -1,0 +1,20 @@
+Increase copies 
+
+db.books.updateOne(
+  { title: "Clean Code" },
+  { $inc: { availableCopies: 2 } }
+);
+
+Decrease copies
+
+db.books.updateOne(
+  { title: "The Alchemist", availableCopies: { $gt: 0 } },
+  { $inc: { availableCopies: -1 } }
+);
+
+change category 
+
+db.books.updateOne(
+  { title: "Atomic Habits" },
+  { $set: { category: "Personal Development" } }
+);
